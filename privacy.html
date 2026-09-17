@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Informativa Privacy — Security Services S.R.L.</title>
+  <meta name="description" content="Informativa sul trattamento dei dati personali di Security Services S.R.L." />
+  <meta name="referrer" content="origin" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue:    #263A89;
+      --blue-d:  #1C2C68;
+      --ink:     #17203A;
+      --steel:   #6B7488;
+      --mist:    #F4F6FA;
+      --card:    #FFFFFF;
+      --line:    #E1E6F0;
+      --radius:  14px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1100px 460px at 50% -160px, #eef1f8 0%, #e4e8f2 60%) fixed,
+        #e4e8f2;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 42px 18px 56px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      width: 100%;
+      max-width: 780px;
+      background: var(--card);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 22px 55px -26px rgba(38,58,137,.45);
+    }
+
+    .brand { background: #fff; padding: 28px 30px 24px; position: relative; text-align: center; }
+    .brand::after {
+      content: ""; position: absolute; left: 30px; right: 30px; bottom: 0; height: 2px;
+      background: linear-gradient(90deg, rgba(38,58,137,0), var(--blue) 50%, rgba(38,58,137,0));
+    }
+    .brandlogo { display: inline-block; width: 100%; max-width: 270px; }
+    .brandlogo svg { width: 100%; height: auto; display: block; }
+
+    .doc { padding: 30px 40px 8px; }
+    @media (max-width: 560px) { .doc { padding: 26px 24px 4px; } }
+
+    .doc h1 {
+      font-family: "Archivo", sans-serif; font-weight: 700; font-size: 26px;
+      letter-spacing: -.01em; margin: 4px 0 4px;
+    }
+    .updated { color: var(--steel); font-size: 13px; margin: 0 0 22px; }
+
+    .doc h2 {
+      font-family: "Archivo", sans-serif; font-weight: 700; font-size: 17px;
+      color: var(--blue); margin: 30px 0 10px; padding-top: 6px;
+      display: flex; gap: 10px; align-items: baseline;
+      scroll-margin-top: 20px;
+    }
+    .doc h2 .n {
+      font-size: 13px; font-weight: 700; color: #fff; background: var(--blue);
+      border-radius: 6px; padding: 2px 8px; flex: 0 0 auto; line-height: 1.5;
+    }
+    .doc h3 {
+      font-family: "Inter", sans-serif; font-weight: 600; font-size: 14.5px;
+      margin: 20px 0 8px; color: var(--ink); scroll-margin-top: 20px;
+    }
+    .doc p { font-size: 14.5px; line-height: 1.7; margin: 0 0 12px; color: #2A3350; }
+    .doc ul { margin: 0 0 14px; padding-left: 20px; }
+    .doc li { font-size: 14.5px; line-height: 1.65; margin-bottom: 8px; color: #2A3350; }
+    .doc ol.roman { padding-left: 22px; }
+    .doc a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+    .doc strong { color: var(--ink); }
+
+    /* evidenzia la sezione raggiunta da un'ancora */
+    :target { animation: flash 1.6s ease-out; }
+    @keyframes flash {
+      0%, 30% { background: rgba(38,58,137,.10); }
+      100% { background: transparent; }
+    }
+
+    .titolare {
+      margin: 26px 0 8px; padding: 18px 20px;
+      background: var(--mist); border: 1px solid var(--line); border-radius: 12px;
+      font-size: 14px; line-height: 1.7;
+    }
+    .titolare b { color: var(--blue); }
+
+    .back {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin: 6px 40px 30px; font-size: 14px; font-weight: 600;
+      color: var(--blue); text-decoration: none;
+    }
+    .back:hover { color: var(--blue-d); }
+    @media (max-width: 560px) { .back { margin-left: 24px; margin-right: 24px; } }
+
+    footer {
+      background: var(--blue); color: #C9D2EE; text-align: center;
+      font-size: 11.5px; line-height: 1.7; padding: 20px 26px 24px;
+    }
+    footer .co { color: #fff; font-weight: 600; letter-spacing: .04em; }
+    footer a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
+
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } :target { animation: none; } }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="brand">
+      <div class="brandlogo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="696" height="174.96" viewBox="0 0 696 174.96">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,174.96)" d="M0 174.96H696V0H0Z"/>
+</clipPath>
+</defs>
+<g inkscape:groupmode="layer" inkscape:label="Livello 1">
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,573.5662,151.399)" d="M0 0C-.066-.004-3.046-.074-3.112-.074-21.661-.071-37.475 .638-56.721 1.451-67.552 1.908-78.75 2.381-89.307 2.682-114.198 3.391-140.833 3.708-175.668 3.708-190.361 3.708-205.308 3.653-219.763 3.6-234.219 3.547-249.167 3.493-263.866 3.493-290.26 3.493-325.076 3.644-360.308 4.83-361.311 4.927-361.513 5.45-361.55 5.752-361.587 6.06-361.509 6.626-360.563 6.96-348.368 10.158-332.944 10.962-319.335 11.672-316.973 11.795-314.675 11.915-312.468 12.043-289.835 13.363-266.505 14.005-241.144 14.005-192.829 14.005-144.035 11.559-102.678 9.167-75.163 7.576-48.201 5.956-20.846 3.649-17.138 3.336-13.371 2.966-9.728 2.609-5.784 2.222-.066 1.325 5.303 .737L6.891 .495 3.611 .197Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,575.8015,150.7532)" d="M0 0V0C-29.452-.055-62.038 2.046-91.519 2.886-181.656 5.454-272.392 2.002-362.515 5.033-363.103 5.092-363.065 5.318-362.515 5.512-348.358 9.221-329.436 9.686-314.654 10.548-244.857 14.619-174.67 11.704-104.961 7.672-77.679 6.094-50.385 4.453-23.153 2.156-15.434 1.504-7.72 .633 0 0" fill="#263a88"/>
+<path transform="matrix(1,0,0,-1,0,174.96)" d="M273.026 132.43H304.935V130.72899H273.026Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,304.9348,43.38051)" d="M0 0H-31.909Z" fill="#d2dce4"/>
+<path transform="matrix(1,0,0,-1,163.5754,35.543)" d="M0 0C3.411 .228 6.601-.263 9.971-.681 18.98-1.801 38.268-4.725 45.472-9.795 46.554-10.557 47.329-11.146 47.532-12.531 48.486-19.04 48.405-26.748 48.502-33.372 48.814-54.812 47.799-73.407 32.8-90.048 26.091-97.492 15.361-104.888 5.865-108.199 3.281-109.1 2.69-109.556-.075-108.742-7.617-106.523-17.756-100.118-23.59-94.844-43.543-76.809-44.867-55.494-44.087-30.017-43.922-24.626-44.097-17.487-43.115-12.293-42.798-10.614-40.449-9.277-38.983-8.512-30.499-4.084-9.771-.654 0 0" fill="#263a88"/>
+<path transform="matrix(1,0,0,-1,164.2952,39.138)" d="M0 0C6.488 .444 19.083-2.165 25.765-3.598 31.629-4.855 37.833-6.296 42.991-9.398L43.236-9.872 44.203-24.245C44.174-36.228 44.608-48.382 41.959-60.131 38.052-77.466 24.818-91.405 9.087-98.955 7.737-99.603 2.737-101.9 1.57-101.96 .821-101.998-2.54-100.544-3.473-100.153-18.379-93.914-31.619-81.593-37.204-66.262-42.42-51.947-42.196-27.001-40.496-11.794-40.436-11.257-40.273-9.712-40.017-9.396-39.532-8.798-35.965-7.298-35.039-6.939-25.965-3.419-9.789-.67 0 0" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,191.9314,57.52121)" d="M0 0C-.644-7.727-2.04-15.403-2.885-23.123L2.857-40.586-21.471-57.28C-22.511-58.34-23.905-63.508-24.459-63.882-24.707-64.05-28.72-64.087-29.109-63.954-29.826-63.708-31.35-58.112-32.266-57.28L-56.594-40.586-50.848-22.881-53.978-.001-34.793-12.351C-30.023-12.203-24.465-12.93-19.779-12.475-19.141-12.413-18.685-12.33-18.159-11.936Z" fill="#273b8a"/>
+<path transform="matrix(1,0,0,-1,172.7404,72.38071)" d="M0 0-7.795-46.258-15.355 0Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,171.7832,110.967807)" d="M0 0 7.386 20.062 15.232 28.276 20.127 13.819Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,158.343,110.96771)" d="M0 0-20.127 13.819-15.232 28.276-7.629 20.299Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,171.3034,95.38911)" d="M0 0 3.716 21.326 13.909 14.26Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,158.8228,95.38911)" d="M0 0-13.909 14.26-3.715 21.329Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,154.7465,71.1862)" d="M0 0-11.515-7.904-13.673 8.872Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,186.8943,79.09031)" d="M0 0-11.515 7.904 2.158 16.776Z" fill="#fefefe"/>
+<path transform="matrix(1,0,0,-1,161.2244,110.4884)" d="M0 0C.029-.336-.051-.496-.24-.479-2.022 4.571-4.115 9.517-5.757 14.619-5.52 14.883-4.508 13.752-4.312 13.548-3.349 12.546-2.346 11.269-1.422 10.204-.861 6.821-.536 3.383 0 0" fill="#fdfdfd"/>
+<path transform="matrix(1,0,0,-1,168.9018,110.4884)" d="M0 0C.519 3.386 .813 6.827 1.421 10.204 2.182 11.111 3.029 12.227 3.832 13.068 4.051 13.298 5.506 14.893 5.757 14.619 4.033 9.545 2.029 4.57 .24-.479 .065-.621-.015-.461 0 0" fill="#fdfdfd"/>
+<path transform="matrix(1,0,0,-1,161.4643,111.686809)" d="M0 0C.107-.352 .102-.416-.24-.24-.328 .01-.353 .36-.48 .719L-.24 1.198C-.188 .869-.072 .418 0 0" fill="#c5cadf"/>
+<path transform="matrix(1,0,0,-1,169.1417,110.967807)" d="M0 0C-.085-.24-.157-.48-.24-.719-.308-.928-.388-.925-.48-.719-.409-.291-.29 .156-.24 .479Z" fill="#d0d4e5"/>
+<path transform="matrix(1,0,0,-1,168.9018,111.686809)" d="M0 0C-.082-.238-.245-.964-.36-.961-.79-.717-.263-.138-.24 0Z" fill="#6f7cb1"/>
+<path transform="matrix(1,0,0,-1,161.4643,111.686809)" d="M0 0C.031-.179 .428-.545 .237-.958 .112-1.225-.177-.417-.24-.24Z" fill="#5b6aa7"/>
+<path transform="matrix(1,0,0,-1,421.292,54.24901)" d="M0 0V3.785L-16.812 3.787-20.483 3.783V0ZM-24.342-19.257C-26.463-19.257-28.188-17.557-28.188-15.467L-28.191-11.254-28.201-10.403V-6.101H-28.193L-28.196-1.068-28.201-.218-28.2 9.013C-28.165 10.344-27.071 11.416-25.732 11.416L5.249 11.413C6.353 11.413 7.314 10.665 7.614 9.625L7.695 9.556 7.718 9.148V-5.601L7.709-5.66C7.536-6.881 6.479-7.802 5.249-7.802H-2.813L6.229-11.936 6.214-11.998C7.28-12.703 7.939-13.9 7.939-15.212 7.939-17.338 6.21-19.067 4.084-19.067 3.453-19.067 2.84-18.907 2.259-18.592L-20.483-8.271V-15.648L-20.511-15.716C-20.641-17.714-22.296-19.257-24.342-19.257" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,399.9582,49.616807)" d="M0 0 4.52 .005 22.184 .002V-5.483H0ZM26.579-17.073 26.583-17.055 17.551-12.926 14.614-11.583H26.583C27.399-11.583 28.09-10.958 28.201-10.173V-3.534-.081 1.639 4.516L28.178 4.536C28.068 5.323 27.4 5.93 26.583 5.93L3.453 5.932V5.933H0V5.932L-4.261 5.933-4.273 5.92C-4.315 5.923-4.355 5.933-4.399 5.933-5.292 5.933-6.017 5.208-6.017 4.315-6.017 4.232-6.004 4.152-5.992 4.073L-6.017 4.047-6.014-1.397H-6.017V-4.85H-6.012L-6.009-11.583H-6.017V-15.036H-6.007L-6.004-20.1C-6.004-21.723-4.663-23.039-3.008-23.039-1.38-23.039-.062-21.763-.02-20.175-.015-20.15-.003-20.137 0-20.111V-15.036-11.583L23.997-22.477C24.422-22.707 24.901-22.849 25.418-22.849 27.077-22.849 28.423-21.504 28.423-19.844 28.423-18.596 27.662-17.527 26.579-17.073" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,338.5811,104.9893)" d="M0 0V3.818L-16.812 3.82-20.483 3.816V0ZM-24.342-19.282C-26.463-19.282-28.188-17.574-28.188-15.475L-28.191-11.229-28.201-10.379V-6.054H-28.193L-28.196-.979-28.201-.129-28.2 9.156C-28.168 10.404-27.213 11.426-25.998 11.557L-25.989 11.558C-25.905 11.566-25.819 11.571-25.732 11.571L5.249 11.568C6.354 11.568 7.316 10.816 7.615 9.771L7.695 9.702 7.718 9.295V-5.545L7.709-5.604C7.537-6.83 6.479-7.755 5.249-7.755H-2.837L6.221-11.921 6.208-11.983C7.278-12.691 7.939-13.896 7.939-15.218 7.939-17.354 6.21-19.092 4.084-19.092 3.456-19.092 2.841-18.931 2.258-18.614L-20.483-8.228V-15.538L-20.504-15.707-20.51-15.723C-20.64-17.73-22.295-19.282-24.342-19.282" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,317.2474,100.323009)" d="M0 0 4.52 .005 22.184 .002V-5.517H0ZM26.579-17.095 26.583-17.077 17.551-12.922 14.614-11.571H26.583C27.399-11.571 28.09-10.942 28.201-10.152V-3.472 .002 1.734 4.629L28.178 4.648C28.068 5.44 27.4 6.052 26.583 6.052L3.453 6.053V6.054H0-4.261L-4.273 6.041C-4.315 6.045-4.355 6.054-4.399 6.054-5.292 6.054-6.017 5.325-6.017 4.426-6.017 4.343-6.004 4.263-5.992 4.182L-6.017 4.156-6.014-1.321H-6.017V-4.796H-6.012L-6.009-11.571H-6.017V-15.045H-6.007L-6.004-20.141C-6.004-21.774-4.663-23.098-3.008-23.098-1.38-23.098-.062-21.814-.02-20.216-.015-20.192-.003-20.178 0-20.152V-15.045-11.571L23.997-22.533C24.422-22.764 24.901-22.907 25.418-22.907 27.077-22.907 28.423-21.554 28.423-19.884 28.423-18.628 27.662-17.552 26.579-17.095" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,233.9409,73.50631)" d="M0 0C-2.096 0-3.801 1.737-3.801 3.871-3.801 6.005-2.096 7.742 0 7.742H24.526V11.529H-1.321C-2.682 11.529-3.79 12.636-3.79 13.997V28.604C-3.79 29.875-2.862 30.762-1.535 30.762H28.445C30.548 30.762 32.258 29.025 32.258 26.89 32.258 24.77 30.558 23.044 28.468 23.044H3.928V19.256H29.81C31.17 19.256 32.278 18.149 32.278 16.788V2.474C32.278 1.113 31.17 .005 29.81 .005H.059Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,265.3682,56.718408)" d="M0 0C0 .893-.724 1.618-1.618 1.618H-15.555-19.008-28.35V7.106H-2.959C-1.336 7.106-.02 8.448-.02 10.102-.02 11.757-1.358 13.123-2.982 13.123H-32.962C-33.947 13.123-34.366 12.508-34.366 11.816V-2.791C-34.366-3.684-33.642-4.409-32.748-4.409H-15.556-6.051L-6.05-6.444V-9.897H-31.427C-33.057-9.897-34.378-11.249-34.378-12.917-34.378-14.585-33.057-15.937-31.427-15.937-31.407-15.937-31.389-15.932-31.368-15.931L-31.369-15.932H-1.618C-.724-15.932 0-15.208 0-14.314Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,273.2114,73.48291)" d="M0 0-.06 .009C-1.268 .182-2.179 1.229-2.179 2.445V28.337C-2.179 29.698-1.071 30.806 .29 30.806H30.112C32.194 30.806 33.887 29.042 33.887 26.875 33.887 24.753 32.187 23.028 30.097 23.028L5.539 23.021V19.233L30.097 19.254C32.187 19.254 33.887 17.522 33.887 15.394 33.887 13.266 32.187 11.534 30.097 11.534L5.543 11.517 5.565 7.718 30.097 7.72C32.187 7.72 33.887 5.988 33.887 3.86 33.887 1.731 32.187 0 30.097 0Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,303.3088,61.098405)" d="M0 0C1.623 0 2.939 1.347 2.939 3.009 2.939 4.671 1.623 6.019 0 6.019L-25.409 5.998V11.486L0 11.494C1.623 11.494 2.939 12.835 2.939 14.49 2.939 16.144 1.638 17.571 .015 17.571H-29.808C-30.701 17.571-31.425 16.846-31.425 15.953V-9.939C-31.425-10.754-30.821-11.422-30.037-11.534H0C1.623-11.534 2.939-10.187 2.939-8.525 2.939-6.863 1.623-5.516 0-5.516L-25.378-5.517-25.409-.018Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,273.2227,124.248)" d="M0 0-.06 .009C-1.268 .182-2.178 1.229-2.178 2.445V28.338C-2.178 29.698-1.071 30.806 .29 30.806H30.113C32.194 30.806 33.888 29.042 33.888 26.874 33.888 24.754 32.188 23.028 30.098 23.028L5.54 23.021V19.234L30.097 19.254C32.188 19.254 33.888 17.522 33.888 15.395 33.888 13.266 32.188 11.534 30.098 11.534L5.544 11.518 5.565 7.719 30.098 7.72C32.188 7.72 33.888 5.988 33.888 3.859 33.888 1.731 32.188 0 30.098 0Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,303.3203,111.8634)" d="M0 0C1.623 0 2.939 1.347 2.939 3.009 2.939 4.671 1.623 6.019 0 6.019L-25.409 5.998V11.486L0 11.494C1.623 11.494 2.939 12.835 2.939 14.49 2.939 16.144 1.638 17.571 .015 17.571H-29.808C-30.701 17.571-31.425 16.846-31.425 15.953V-9.939C-31.425-10.754-30.821-11.422-30.037-11.534H0C1.623-11.534 2.939-10.187 2.939-8.525 2.939-6.863 1.623-5.516 0-5.516L-25.378-5.517-25.409-.018Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,323.2026,73.50631)" d="M0 0C-8.141 0-10.166 0-10.75 .042L-10.754 .012C-11.962 .185-12.873 1.232-12.873 2.448V28.266C-12.873 29.627-11.765 30.735-10.404 30.735-9.833 30.736-4.347 30.748 1.633 30.748 4.618 30.748 7.727 30.745 10.401 30.736L19.58 30.724C21.668 30.724 23.369 28.999 23.369 26.877 23.369 25.076 22.136 23.556 20.482 23.143L20.488 23.032 19.59 23.023H-5.154L-5.126 7.722H19.579C21.668 7.722 23.369 5.99 23.369 3.862 23.369 1.733 21.668 .001 19.579 .001Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,342.7813,66.63541)" d="M0 0H-25.553L-25.584 17.003H.011V17.012C1.629 17.018 2.939 18.356 2.939 20.006 2.939 21.661 1.623 23.002 0 23.002L-9.18 23.015C-17.483 23.043-29.959 23.013-29.983 23.013-30.877 23.013-31.601 22.289-31.601 21.395V-4.423C-31.601-5.238-30.996-5.905-30.213-6.017-30.201-6.023 0-6.019 0-6.019 1.623-6.019 2.939-4.671 2.939-3.009 2.939-1.347 1.623 0 0 0" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,354.3936,73.50101)" d="M0 0C-1.36 0-2.468 1.107-2.468 2.468V26.965C-2.468 29.055-.736 30.755 1.392 30.755 3.521 30.755 5.252 29.055 5.252 26.965L5.25 7.81H25.636L25.646 26.966C25.646 29.055 27.372 30.755 29.493 30.755 31.614 30.755 33.34 29.055 33.34 26.965L33.352 2.469C33.352 1.107 32.244 0 30.884 0Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,386.8826,46.535707)" d="M0 0C0 1.623-1.341 2.939-2.996 2.939-4.65 2.939-5.992 1.623-5.992 0L-6.004-20.006H-28.09L-28.088 0C-28.088 1.623-29.435 2.939-31.097 2.939-32.759 2.939-34.107 1.623-34.107 0V-24.497C-34.107-25.39-33.382-26.115-32.489-26.115H-1.605C-.712-26.115 .012-25.39 .012-24.497Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,437.1455,73.50101)" d="M0 0C-2.124 0-3.853 1.7-3.853 3.79V26.884C-3.846 28.987-2.082 30.751 .006 30.751 2.098 30.751 3.865 28.98 3.865 26.884V3.79C3.865 1.7 2.131 0 0 0" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,440.16,46.6165)" d="M0 0C0 1.623-1.354 3.016-3.008 3.016-4.663 3.016-6.017 1.623-6.017 0-6.017-.026-6.017 0-6.017 0V-23.095C-6.017-24.718-4.672-26.034-3.014-26.034-1.357-26.034 0-24.718 0-23.095V0C0 0 0-.026 0 0" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,392.6484,124.27151)" d="M0 0C-2.124 0-3.853 1.706-3.853 3.804V27.855H-3.761C-3.398 29.583-1.848 30.886 .006 30.886 1.859 30.886 3.41 29.583 3.772 27.855H3.845L3.865 27.005V2.953H3.755C3.363 1.264 1.828 0 0 0" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,395.6426,97.26671)" d="M0 0C.001 .026 .008 .051 .008 .077 .008 1.708-1.333 3.03-2.988 3.03-4.643 3.03-5.984 1.708-5.984 .077-5.984 .051-5.977 .026-5.976 0H-5.996V-23.201C-5.996-24.832-4.652-26.154-2.994-26.154-1.336-26.154 .008-24.832 .008-23.201H.02V0Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,499.6201,73.453609)" d="M0 0C-1.854 0-3.405 1.295-3.772 3.015H-3.849L-3.855 3.866V13.429L-16.625 23.767C-17.528 24.509-18.044 25.583-18.044 26.715-18.044 28.836-16.292 30.562-14.14 30.562-13.298 30.562-12.489 30.292-11.802 29.782L.397 19.907 13.194 30.267 13.308 30.125C13.758 30.299 14.236 30.39 14.722 30.39 16.874 30.39 18.626 28.664 18.626 26.543 18.626 25.494 18.202 24.512 17.432 23.78L3.855 12.785V3.015H3.76C3.379 1.274 1.838 0 0 0" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,517.3959,46.910509)" d="M0 0C0 1.655-1.367 2.996-3.054 2.996-3.663 2.996-4.227 2.816-4.704 2.515L-4.712 2.524-17.378-7.73-30.084 2.556C-30.595 2.935-31.225 3.168-31.915 3.168-33.602 3.168-34.969 1.827-34.969 .172-34.969-.751-34.535-1.566-33.866-2.115L-20.781-12.709V-22.677H-20.774C-20.775-22.7-20.781-22.721-20.781-22.744-20.781-24.372-19.435-25.692-17.776-25.692-16.116-25.692-14.77-24.372-14.77-22.744-14.77-22.721-14.777-22.7-14.777-22.677H-14.77V-13.352L-.93-2.147C-.358-1.603 0-.844 0 0" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,367.6807,124.27151)" d="M0 0C-1.222 0-2.377 .557-3.151 1.487L-3.198 1.473-3.554 2.039-17.874 25.821-17.799 25.871C-17.929 26.255-17.995 26.651-17.995 27.057-17.995 29.168-16.258 30.886-14.122 30.886-13.03 30.886-11.993 30.417-11.267 29.625L-11.186 29.666-10.778 28.977-.007 10.367 11.146 29.637 11.234 29.593C11.961 30.385 12.999 30.854 14.09 30.854 16.226 30.854 17.963 29.135 17.963 27.023 17.963 26.65 17.906 26.284 17.796 25.929L17.893 25.881C17.893 25.881 17.307 24.895 17.282 24.859L3.521 2.007C2.77 .751 1.452 0 0 0" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,384.3759,98.7412)" d="M0 0-.004 .002C.257 .442 .417 .947 .417 1.494 .417 3.139-.936 4.472-2.606 4.472-3.721 4.472-4.684 3.871-5.208 2.985L-5.213 2.989-16.702-16.861-28.21 3.021-28.215 3.018C-28.739 3.903-29.702 4.505-30.817 4.505-32.487 4.505-33.84 3.171-33.84 1.526-33.84 .98-33.68 .475-33.42 .034L-33.423 .032-33.367-.06C-33.347-.092-33.331-.126-33.309-.157L-19.521-23.053-19.507-23.049C-18.944-24.019-17.902-24.68-16.696-24.68-15.503-24.68-14.472-24.036-13.903-23.085L-.114-.189C-.092-.158-.076-.124-.056-.092Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,413.5859,124.20311)" d="M0 0C-7.226 0-9.114 0-9.687 .043L-9.69 .012C-10.898 .185-11.81 1.232-11.81 2.448V28.267C-11.81 29.628-10.702 30.735-9.341 30.735-8.771 30.736 20.643 30.725 20.643 30.725 22.731 30.725 24.432 28.999 24.432 26.878 24.432 25.062 22.852 23.431 21.177 23.032L20.653 23.023H-4.091L-4.062 7.722H20.642C22.731 7.722 24.432 5.99 24.432 3.862 24.432 1.733 22.731 .002 20.642 .002Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,434.228,117.3318)" d="M0 0H-25.553L-25.584 17.003H.011C1.629 17.009 2.939 18.356 2.939 20.006 2.939 21.661 1.623 23.002 0 23.002 0 23.002-29.959 23.013-29.983 23.013-30.877 23.013-31.601 22.289-31.601 21.395V-4.423C-31.601-5.238-30.996-5.905-30.213-6.017-30.201-6.023 0-6.019 0-6.019 1.623-6.019 2.939-4.671 2.939-3.009 2.939-1.347 1.623 0 0 0" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,485.623,124.20901)" d="M0 0C-2.096 0-3.801 1.736-3.801 3.87-3.801 6.005-2.096 7.741 0 7.741H24.526V11.539C19.979 11.537-1.266 11.528-1.32 11.528-2.682 11.528-3.789 12.636-3.789 13.997V28.604C-3.789 29.874-2.861 30.761-1.534 30.761H28.446C30.549 30.761 32.259 29.024 32.259 26.89 32.259 24.769 30.559 23.043 28.469 23.043H3.929V19.256H29.81C31.171 19.256 32.278 18.148 32.278 16.787V2.474C32.278 1.112 31.171 .005 29.81 .005H.06Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,517.0508,107.42141)" d="M0 0C0 .893-.724 1.618-1.618 1.618H-28.35V7.106H-2.959C-1.336 7.106-.02 8.448-.02 10.102-.02 11.757-1.358 13.123-2.982 13.123H-32.962C-33.947 13.123-34.366 12.508-34.366 11.816V-2.791C-34.366-3.684-33.642-4.409-32.748-4.409-32.687-4.409-6.05-4.398-6.05-4.398V-6.444-9.897H-31.427C-33.057-9.897-34.378-11.249-34.378-12.917-34.378-14.585-33.057-15.937-31.427-15.937-31.407-15.937-31.389-15.932-31.368-15.931L-31.369-15.932H-1.618C-.724-15.932 0-15.208 0-14.314Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,443.5859,124.23141)" d="M0 0-.06 .009C-1.268 .182-2.179 1.229-2.179 2.445V28.338C-2.179 29.698-1.071 30.806 .29 30.806H30.112C32.194 30.806 33.888 29.042 33.888 26.874 33.888 24.754 32.188 23.028 30.098 23.028L5.539 23.021V19.234L30.097 19.254C32.188 19.254 33.888 17.522 33.888 15.394 33.888 13.266 32.188 11.534 30.098 11.534L5.544 11.518 5.565 7.719 30.098 7.72C32.188 7.72 33.888 5.988 33.888 3.859 33.888 1.731 32.188 0 30.098 0Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,473.6834,111.84691)" d="M0 0C1.623 0 2.939 1.347 2.939 3.009 2.939 4.671 1.623 6.019 0 6.019L-25.409 5.998V11.486L0 11.494C1.623 11.494 2.939 12.835 2.939 14.49 2.939 16.144 1.638 17.571 .015 17.571H-29.808C-30.701 17.571-31.425 16.846-31.425 15.953V-9.939C-31.425-10.754-30.821-11.422-30.037-11.534H0C1.623-11.534 2.939-10.187 2.939-8.525 2.939-6.863 1.623-5.516 0-5.516L-25.378-5.517-25.409-.018Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,437.2471,40.2041)" d="M0 0C-1.463 .053-2.721 4.477-2.731 4.522-3.095 6.042-3.287 7.105-3.335 8.705-3.348 9.004-3.377 9.735-3.333 10.295L-3.324 10.438C-3.299 10.87-3.223 12.182-1.687 12.241-1.541 12.247-1.388 12.249-1.226 12.249-1.012 12.249-.781 12.245-.527 12.241-.224 12.236 .114 12.23 .501 12.23 .996 12.23 1.571 12.24 2.253 12.272 3.462 12.329 4.155 12.888 4.184 12.912L6.345 15.076 6.391 13.089C6.392 13.036 6.413 11.777 5.825 9.839 5.312 8.145 1.713 0 .033 0Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,441.979,27.94281)" d="M0 0C0 0-.891-.766-2.439-.839-4.43-.933-5.527-.837-6.387-.87-7.238-.902-7.176-1.519-7.217-2.034-7.263-2.613-7.22-3.427-7.217-3.531-7.171-5.064-6.991-6.054-6.636-7.542-6.368-8.663-5.163-11.395-4.702-11.411-4.096-11.433-.711-5.444 .28-2.176 .835-.345 .808 .808 .808 .808Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,392.8037,91.323207)" d="M0 0C-1.463 .053-2.721 4.476-2.731 4.521-3.095 6.041-3.287 7.105-3.335 8.704-3.348 9.003-3.377 9.735-3.333 10.294L-3.324 10.438C-3.299 10.87-3.223 12.182-1.687 12.24-1.539 12.246-1.384 12.249-1.22 12.249-1.007 12.249-.776 12.245-.523 12.24-.222 12.235 .115 12.23 .499 12.23 .994 12.23 1.569 12.239 2.252 12.271 3.462 12.328 4.155 12.888 4.184 12.911L6.345 15.074 6.391 13.088C6.392 13.035 6.413 11.776 5.825 9.838 5.312 8.145 1.714-.001 .033-.001Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,397.5353,79.062709)" d="M0 0C0 0-.891-.766-2.439-.839-4.43-.933-5.527-.837-6.387-.87-7.238-.902-7.176-1.519-7.217-2.034-7.263-2.613-7.22-3.427-7.217-3.531-7.171-5.064-6.991-6.054-6.636-7.542-6.368-8.663-5.163-11.395-4.702-11.411-4.096-11.433-.711-5.444 .28-2.176 .835-.345 .808 .808 .808 .808Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,233.9829,124.2256)" d="M0 0C-2.096 0-3.801 1.736-3.801 3.871-3.801 6.005-2.096 7.741 0 7.741H24.526V11.528H-1.321C-2.682 11.528-3.789 12.636-3.789 13.997V28.604C-3.789 29.875-2.862 30.762-1.535 30.762H28.445C30.548 30.762 32.258 29.024 32.258 26.89 32.258 24.77 30.558 23.044 28.468 23.044H3.928V19.256H29.81C31.17 19.256 32.278 18.148 32.278 16.788V2.474C32.278 1.112 31.17 .005 29.81 .005H.059Z" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,265.4102,107.437908)" d="M0 0C0 .893-.724 1.618-1.618 1.618H-15.555-19.008-28.35V7.106H-2.959C-1.336 7.106-.02 8.448-.02 10.102-.02 11.757-1.358 13.123-2.982 13.123H-32.962C-33.947 13.123-34.366 12.508-34.366 11.816V-2.791C-34.366-3.684-33.642-4.409-32.748-4.409H-15.556-6.051L-6.05-6.444V-9.897H-31.427C-33.057-9.897-34.378-11.249-34.378-12.917-34.378-14.585-33.057-15.937-31.427-15.937-31.407-15.937-31.389-15.932-31.368-15.931L-31.369-15.932H-1.618C-.724-15.932 0-15.208 0-14.314Z" fill="#263a89"/>
+<path transform="matrix(1,0,0,-1,462.2754,73.45411)" d="M0 0C-2.126 0-3.856 1.729-3.856 3.854V22.979H-13.281L-13.324 22.994-14.071 22.989C-16.259 22.989-18.024 24.716-18.024 26.837-18.024 28.971-16.273 30.707-14.121 30.707H-2.632L-2.631 30.696H-.854L-.003 30.707H14.072C16.225 30.707 17.977 28.971 17.977 26.837 17.977 24.716 16.211 22.989 14.042 22.989H3.854V3.811C3.854 1.709 2.125 0 0 0" fill="#b9c2c9"/>
+<path transform="matrix(1,0,0,-1,476.348,43.59781)" d="M0 0H-14.075V-.01H-17.48L-17.481 0H-28.193C-29.88 0-31.247-1.364-31.247-3.019-31.247-4.673-29.849-6.017-28.163-6.017H-28.144-27.243C-27.229-6.018-27.217-6.026-27.203-6.027H-17.079V-26.002C-17.079-27.63-15.733-29.006-14.073-29.006-12.413-29.006-11.068-27.675-11.068-26.046V-6.017H-.049-.031C1.656-6.017 3.054-4.673 3.054-3.019 3.054-1.364 1.686 0 0 0" fill="#263a89"/>
+</g>
+</g>
+</svg></div>
+    </div>
+
+    <div class="doc" id="informativa">
+      <h1>Informativa Privacy</h1>
+      <p class="updated">Ultimo aggiornamento: 17/09/2026</p>
+
+      <p>Lo scopo del presente documento è di informare la persona fisica relativamente al trattamento dei suoi dati personali raccolti dal titolare del trattamento, <strong>SECURITY SERVICES S.R.L.</strong>, CF/Partita IVA 04303540654, info@vigilanzasecurityservice.it, tramite questo sito web.</p>
+      <p>Le modifiche e gli aggiornamenti saranno vincolanti non appena pubblicati sul Sito. In caso di mancata accettazione delle modifiche apportate all'Informativa Privacy, l'Interessato è tenuto a cessare l'utilizzo di questo Sito e può richiedere al Titolare di cancellare i propri Dati Personali.</p>
+
+      <h2><span class="n">1</span> Categorie di Dati Personali trattati</h2>
+      <p>Il Titolare tratta le seguenti tipologie di Dati Personali forniti volontariamente dall'Interessato:</p>
+      <ul>
+        <li><strong>Dati di contatto:</strong> nome, cognome, indirizzo, e-mail, telefono, immagini, credenziali di autenticazione, eventuali ulteriori informazioni inviate dall'Interessato, ecc.</li>
+      </ul>
+      <p>Il Titolare tratta le seguenti tipologie di Dati Personali raccolti in maniera automatizzata:</p>
+      <ul>
+        <li><strong>Dati tecnici:</strong> Dati Personali prodotti dai dispositivi, dalle applicazioni, dagli strumenti e dai protocolli utilizzati, quali ad esempio informazioni sul dispositivo utilizzato, indirizzi IP, tipo di browser, tipo di provider Internet (ISP). Tali Dati Personali possono lasciare tracce che, in particolare se combinate con identificativi univoci e altre informazioni ricevute dai server, possono essere utilizzate per creare profili delle persone fisiche.</li>
+        <li><strong>Dati di navigazione e di utilizzo del Sito:</strong> quali, ad esempio, pagine visitate, numero di clic, azioni compiute, durata delle sessioni, ecc.</li>
+      </ul>
+      <p>Il mancato conferimento da parte dell'Interessato dei Dati Personali per i quali sussiste l'obbligo legale, contrattuale o qualora costituiscano requisito necessario per la conclusione del contratto con il Titolare, comporterà l'impossibilità del Titolare di instaurare o proseguire il rapporto con l'Interessato.</p>
+      <p>L'Interessato che comunichi al Titolare Dati Personali di terzi è direttamente ed esclusivamente responsabile della loro provenienza, raccolta, trattamento, comunicazione o diffusione.</p>
+
+      <h2><span class="n">2</span> Cookie e tecnologie simili</h2>
+      <p>Il Sito usa cookie, web beacon, identificatori univoci e altre analoghe tecnologie per raccogliere Dati Personali dell'Interessato sulle pagine, sui collegamenti visitati e sulle altre azioni che si eseguono quando l'Interessato utilizza il Sito. Essi vengono memorizzati per essere poi trasmessi alla successiva visita dell'Interessato. Si può prendere visione della Cookie Policy completa contattando il Titolare ai recapiti indicati nella presente informativa.</p>
+
+      <h2><span class="n">3</span> Base giuridica e finalità del trattamento</h2>
+      <p>Il trattamento dei Dati Personali è necessario:</p>
+
+      <h3 id="finalita-servizio">Per l'esecuzione del contratto con l'Interessato e precisamente:</h3>
+      <ul>
+        <li>adempimento di ogni obbligo derivante dal rapporto precontrattuale o contrattuale con l'Interessato;</li>
+        <li>registrazione e autenticazione dell'Interessato: per consentire all'Interessato di registrarsi sul Sito, accedere ed essere identificato anche tramite piattaforme esterne;</li>
+        <li>supporto e contatto con l'Interessato: per rispondere alle richieste dell'Interessato.</li>
+      </ul>
+
+      <h3>Per obbligo di legge e precisamente:</h3>
+      <ul>
+        <li>l'adempimento di qualunque obbligo previsto dalle vigenti normative, leggi e regolamenti, in particolare in materia tributaria e fiscale.</li>
+      </ul>
+
+      <h3>Sulla base del legittimo interesse del Titolare, per:</h3>
+      <ul>
+        <li>finalità di marketing via email di prodotti e/o servizi del Titolare, per vendere direttamente i prodotti o servizi del Titolare utilizzando l'e-mail fornita dall'Interessato nel contesto della vendita di un prodotto o servizio analogo a quello oggetto della vendita;</li>
+        <li>gestione, ottimizzazione e monitoraggio dell'infrastruttura tecnica: per identificare e risolvere eventuali problemi tecnici, per migliorare le performance del Sito, per gestire e organizzare le informazioni in un sistema informatico (es. server, database, ecc.);</li>
+        <li>sicurezza e antifrode: per garantire la sicurezza del patrimonio, delle infrastrutture e delle reti del Titolare;</li>
+        <li>statistica con dati anonimi: per effettuare analisi statistiche su dati aggregati e anonimi, per analizzare i comportamenti dell'Interessato, migliorare i prodotti e/o i servizi forniti dal Titolare e meglio soddisfare le aspettative dell'Interessato.</li>
+      </ul>
+
+      <h3 id="finalita-profilazione">Sulla base del consenso dell'Interessato, per:</h3>
+      <ul>
+        <li><span id="finalita-marketing"></span><strong>profilazione dell'Interessato per fini di marketing:</strong> per fornire all'Interessato informazioni sui prodotti e/o servizi del Titolare attraverso un trattamento automatizzato finalizzato alla raccolta di informazioni personali con lo scopo di prevedere o valutare le sue preferenze o comportamenti;</li>
+        <li><strong>retargeting e remarketing:</strong> per raggiungere con un annuncio pubblicitario personalizzato l'Interessato che ha già visitato o ha dimostrato interesse per i prodotti e/o servizi offerti dal Sito, utilizzando i suoi Dati Personali. L'Interessato può effettuare l'opt-out visitando la pagina della Network Advertising Initiative;</li>
+        <li><strong>finalità di marketing di prodotti e/o servizi del Titolare:</strong> per inviare informazioni o materiali commerciali e/o promozionali, per effettuare attività di vendita diretta di prodotti e/o servizi del Titolare o per compiere ricerche di mercato con modalità automatizzate e tradizionali;</li>
+        <li><strong>finalità di marketing di prodotti e/o servizi di terzi:</strong> per inviare informazioni o materiali commerciali e/o promozionali di terzi, per effettuare attività di vendita diretta o per compiere ricerche di mercato dei loro prodotti e/o servizi con modalità automatizzate e tradizionali;</li>
+        <li><strong>comunicazione dei Dati Personali per finalità di marketing di terzi:</strong> per comunicare a terzi i Dati Personali affinché li utilizzino per inviare informazioni o materiali commerciali e/o promozionali, per effettuare attività di vendita diretta dei loro prodotti e/o servizi o per compiere ricerche di mercato con modalità automatizzate e tradizionali;</li>
+        <li><strong>rilevazione della posizione esatta dell'Interessato:</strong> per rilevare la presenza dell'Interessato, per controllare gli accessi, gli orari e la presenza dell'Interessato in un determinato luogo, ecc.</li>
+      </ul>
+
+      <p>Sulla base del legittimo interesse del Titolare, il Sito permette di effettuare interazioni con piattaforme esterne o social network il cui trattamento dei Dati Personali è regolato dalle rispettive informative privacy alle quali si prega di fare riferimento. Le interazioni e le informazioni acquisite da questo Sito sono in ogni caso soggette alle impostazioni privacy che l'Interessato ha scelto su tali piattaforme o social network. Queste informazioni — in assenza di uno specifico consenso al trattamento per ulteriori finalità — vengono utilizzate al solo fine di consentire la fruizione del Sito e fornire le informazioni e i servizi richiesti.</p>
+      <p>I Dati Personali dell'Interessato possono inoltre essere utilizzati dal Titolare per tutelarsi in giudizio avanti le sedi giudiziarie competenti.</p>
+
+      <h2><span class="n">4</span> Modalità di trattamento e destinatari dei Dati Personali</h2>
+      <p>Il trattamento dei Dati Personali viene effettuato mediante strumenti cartacei e informatici con modalità organizzative e con logiche strettamente correlate alle finalità indicate e mediante l'adozione di adeguate misure di sicurezza.</p>
+      <p>I Dati Personali sono trattati esclusivamente da:</p>
+      <ul>
+        <li>persone autorizzate dal Titolare del trattamento dei Dati Personali che si sono impegnate alla riservatezza o abbiano un adeguato obbligo legale di riservatezza;</li>
+        <li>soggetti che operano in autonomia come distinti titolari del trattamento, o soggetti designati quali responsabili del trattamento dal Titolare, al fine di svolgere tutte le attività di trattamento necessarie a perseguire le finalità di cui alla presente informativa (ad esempio partner commerciali, consulenti, società informatiche, fornitori di servizi, hosting provider);</li>
+        <li>soggetti o enti a cui è obbligatorio comunicare i Dati Personali per obbligo di legge o per ordine delle autorità.</li>
+      </ul>
+      <p>I soggetti sopra elencati sono tenuti a utilizzare le garanzie appropriate per proteggere i Dati Personali e possono accedere solo a quelli necessari per eseguire i compiti a loro assegnati. I Dati Personali non verranno diffusi indiscriminatamente in alcun modo.</p>
+
+      <h2><span class="n">5</span> Luogo</h2>
+      <p>I Dati Personali non saranno oggetto di alcun trasferimento al di fuori del territorio dello Spazio Economico Europeo (SEE).</p>
+
+      <h2><span class="n">6</span> Periodo di conservazione dei Dati Personali</h2>
+      <p>I Dati Personali saranno conservati per il periodo di tempo necessario ad adempiere alle finalità per i quali sono stati raccolti, in particolare:</p>
+      <ul>
+        <li>per finalità relative all'esecuzione del contratto tra il Titolare e l'Interessato, saranno conservati per tutta la durata del rapporto contrattuale e, dopo la cessazione, per il periodo di prescrizione ordinario pari a 10 anni. Nel caso di contenzioso giudiziale, per tutta la durata dello stesso, fino all'esaurimento dei termini di esperibilità delle azioni di impugnazione;</li>
+        <li>per finalità relative al legittimo interesse del Titolare, saranno conservati fino al compimento di tale interesse;</li>
+        <li>per l'adempimento di un obbligo di legge, per ordine di un'autorità e per la tutela in giudizio, saranno conservati nel rispetto delle tempistiche previste da detti obblighi e normative, e comunque sino al compimento del termine prescrizionale previsto dalle norme in vigore;</li>
+        <li>per finalità basate sul consenso dell'Interessato, saranno conservati sino alla revoca del consenso. Per finalità di marketing, per un periodo non superiore a 24 mesi.</li>
+      </ul>
+      <p>Al termine del periodo di conservazione, tutti i Dati Personali saranno cancellati o conservati in una forma che non consenta l'identificazione dell'Interessato.</p>
+
+      <h2><span class="n">7</span> Diritti dell'Interessato</h2>
+      <p>Gli Interessati possono esercitare determinati diritti con riferimento ai Dati Personali trattati dal Titolare. In particolare, l'Interessato ha il diritto di:</p>
+      <ul>
+        <li>essere informato sul trattamento dei propri Dati Personali;</li>
+        <li>revocare il consenso in ogni momento;</li>
+        <li>limitare il trattamento dei propri Dati Personali;</li>
+        <li>opporsi al trattamento dei propri Dati Personali;</li>
+        <li>accedere ai propri Dati Personali;</li>
+        <li>verificare e chiedere la rettifica dei propri Dati Personali;</li>
+        <li>ottenere la limitazione del trattamento dei propri Dati Personali;</li>
+        <li>ottenere la cancellazione dei propri Dati Personali;</li>
+        <li>trasferire i propri Dati Personali ad altro titolare;</li>
+        <li>proporre reclamo all'autorità di controllo della protezione dei propri Dati Personali e/o agire in sede giudiziale.</li>
+      </ul>
+      <p>Per esercitare i propri diritti, gli Interessati possono contattare il Titolare all'indirizzo PEC info@pec.vigilanzasecurityservice.it. Le richieste saranno prese in carico dal Titolare immediatamente ed evase nel più breve tempo possibile, in ogni caso entro 30 giorni.</p>
+
+      <h2><span class="n">8</span> Contatti in materia di protezione dei Dati Personali</h2>
+      <p>Per ogni richiesta relativa al trattamento e alla protezione dei propri Dati Personali, nonché per l'esercizio dei diritti sopra elencati, l'Interessato può rivolgersi al Titolare del trattamento ai recapiti indicati di seguito.</p>
+
+      <div class="titolare">
+        <b>Titolare del trattamento</b><br />
+        SECURITY SERVICES S.R.L., nella persona del legale rappresentante Domenico Palma<br />
+        Sede legale: Via degli Oleandri 1, 80031 Brusciano (NA)<br />
+        CF / Partita IVA: 04303540654<br />
+        E-mail: info@vigilanzasecurityservice.it<br />
+        PEC: info@pec.vigilanzasecurityservice.it
+      </div>
+    </div>
+
+    <a class="back" href="index.html">← Torna al modulo</a>
+
+    <footer>
+      <span class="co">SECURITY SERVICES S.R.L.</span> — P.IVA 04303540654<br />
+      Copyright 2026 — Tutti i diritti riservati.<br />
+      Vietata la riproduzione parziale e/o totale dei contenuti.
+    </footer>
+  </main>
+</body>
+</html>
